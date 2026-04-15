@@ -17,27 +17,20 @@ This project is a backend system that processes medical claim PDFs and extracts 
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### 1. Create the repository
 
 ```
 git clone <repository-url>
 cd assignment-health
 ```
 
-### 2. Create a virtual environment
-
-```
-python -m venv venv
-venv\Scripts\activate
-```
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
+### 3. Configure environment variables
 
 Create a `.env` file and add:
 
@@ -45,13 +38,13 @@ Create a `.env` file and add:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-### 5. Run the application
+### 4. Run the application
 
 ```
 python main.py
 ```
 
-### 6. Access API documentation
+### 5. Access API documentation
 
 Open:
 
